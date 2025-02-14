@@ -75,8 +75,8 @@ def strength_check():
     password_strength_checker_result_label.configure(text=f"Strength is {strength}/4")
 
 root = ctk.CTk()
-root.title("Password Strength Checker")
-root.geometry('500x300')
+root.title("Password Strength Checker & Accounts Manager")
+root.geometry('950x450')
 
 nav_frame = ctk.CTkFrame(root, width=200)
 nav_frame.pack(side="left", fill="y")
